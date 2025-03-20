@@ -28,7 +28,7 @@ body {
 
 /* Logo Styling */
 .logo {
-    position: relative;
+    position: left;
     font-size: 25px;
     color: #fff;
     text-decoration: none; /* Fixed 'text-direction' to 'text-decoration' */
