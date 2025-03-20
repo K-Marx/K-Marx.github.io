@@ -6,7 +6,8 @@ font-family: 'poppins' , sans-serif;
 }
 body
 {
-  color: #ededed;
+  color: #fff;
+  background: #081b29;
 }
 .header
 {
@@ -49,7 +50,7 @@ color: #oef;
   width: 1005
   justify-content: space-between;
   height: 100vh;
-  background: url(Static/images/background.avif) no-repeat;
+  background: src: Static/images/background.avif no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
