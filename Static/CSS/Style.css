@@ -50,7 +50,7 @@ color: #0ef;
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: src: Static/images/background.avif no-repeat;
+  background: #7fffd4;
   background-size: cover;
   background-position: center;
   display: flex;
