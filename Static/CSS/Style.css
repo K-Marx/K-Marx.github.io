@@ -40,7 +40,7 @@ body {
     display: inline-block; /* Fixed 'diplay' to 'display' */
     font-size: 25px;
     color: #fff;
-    text-decoration: none; /* Fixed 'text-direction' to 'text-decoration' */
+    text-decoration: none !important;/* Fixed 'text-direction' to 'text-decoration' */
     font-weight: 600;
     margin-left: 35px;
     transition: 0.3s;
