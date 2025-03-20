@@ -1,60 +1,100 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'poppins' , sans-serif;   
-}
-body
-{
-  color: #fff;
-  
-}
-.header
-{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding: 20px 10%;
-background: transparent;
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 100;
-}
-.logo
-{
-  Position: relative;
-  font-size: 25px;
-  color: #fff;
-  text-direction: none;
-  font-weight: 600;
-}
-.navbar a 
-{
-  diplay: inline-block;
-  font-size:25px;
-  color: #fff;
-  text-direction: none;
-  font-weight: 600;
-  margin-left: 35px;
-  transition: .3s;
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.navbar a:hover
-{
-color: #0ef;
-}
-.home{
-  position: relative;
-  width: 100%;
-  justify-content: space-between;
-  height: 100vh;
-  background-color: #081b29;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding: 70px 10% 0;
+/* Body Styling */
+body {
+    color: #fff;
+    background-color: #081b29; /* Default background color */
 }
 
+/* Header Styling */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Logo Styling */
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none; /* Fixed 'text-direction' to 'text-decoration' */
+    font-weight: 600;
+}
+
+/* Navbar Styling */
+.navbar a {
+    display: inline-block; /* Fixed 'diplay' to 'display' */
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none; /* Fixed 'text-direction' to 'text-decoration' */
+    font-weight: 600;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+/* Navbar Hover Effect */
+.navbar a:hover {
+    color: #0ef; /* Neon blue hover effect */
+}
+
+/* Home Section Styling */
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #081b29; /* Dark blue background */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Centering the content */
+    align-items: center;
+    padding: 70px 10% 0;
+    text-align: center; /* Centering text */
+}
+
+.home-content {
+    /* Styling for home content text */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .navbar a {
+        font-size: 20px; /* Reduce font size on smaller screens */
+        margin-left: 20px;
+    }
+
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+}
