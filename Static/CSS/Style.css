@@ -21,3 +21,26 @@ justify-content: space-between;
 align-items: center;
 z-index: 100;
 }
+.logo{
+  Position: relative;
+  font-size: 25px;
+  color: #fff;
+  text-direction: none;
+  font-weight: 600;
+}
+.navbar a 
+{
+  diplay: inline-block;
+  font-size:25px;
+ color: #fff;
+  text-direction: none;
+  font-weight: 600;
+  margin-left: 35px;
+  transition: .3s;
+}
+
+.navbar a:hover
+{
+color: #oef;
+  
+}
