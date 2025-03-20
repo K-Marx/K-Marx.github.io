@@ -43,5 +43,16 @@ z-index: 100;
 .navbar a:hover
 {
 color: #oef;
-  
+}
+.home{
+  position: relative;
+  width: 1005
+  justify-content: space-between;
+  height: 100vh;
+  background: url(Static/images/background.avif) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
 }
