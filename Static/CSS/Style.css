@@ -106,6 +106,7 @@ body {
 /* Hover Effect for Social Icons */
 .home-sci a:hover {
     transform: scale(1.2); /* Slightly enlarge icons on hover */
+        color: #ffffff; /* hover color */
 }
 
 /* Add Transition on Navbar Links */
