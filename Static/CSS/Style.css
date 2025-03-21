@@ -55,16 +55,16 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 70px 10% 0;
-    text-align: center;
+    text-align: left;
 }
 
 /* Home Content Styling */
 .home-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
     opacity: 0;
     transition: opacity 1s ease-out;
 }
