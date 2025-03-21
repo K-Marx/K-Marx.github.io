@@ -28,22 +28,21 @@ body {
 
 /* Logo Styling */
 .logo {
-    position: left;
     font-size: 25px;
     color: #fff;
-    text-decoration: none; /* Fixed 'text-direction' to 'text-decoration' */
+    text-decoration: none; /* Ensures no underline on the logo */
     font-weight: 600;
 }
 
 /* Navbar Styling */
 .navbar a {
-    display: inline-block; /* Fixed 'diplay' to 'display' */
+    display: inline-block;
     font-size: 25px;
     color: #fff;
-    text-decoration: none !important;/* Fixed 'text-direction' to 'text-decoration' */
+    text-decoration: none !important; /* Remove underline */
     font-weight: 600;
     margin-left: 35px;
-    transition: 0.3s;
+    transition: color 0.3s ease;
 }
 
 /* Navbar Hover Effect */
@@ -61,15 +60,14 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center; /* Centering the content */
-    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
     padding: 70px 10% 0;
-    text-align: center; /* Centering text */
+    text-align: center; /* Center text */
 }
 
-
+/* Home Content Styling */
 .home-content {
-    /* Styling for home content text */
     max-width: 800px;
     margin: 0 auto;
 }
@@ -85,13 +83,31 @@ body {
     margin-bottom: 20px;
 }
 
+/* Social Icons Styling */
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
 /* Optional: Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
+    /* Navbar adjustments */
     .navbar a {
         font-size: 20px; /* Reduce font size on smaller screens */
         margin-left: 20px;
     }
 
+    /* Home Content adjustments */
     .home-content h1 {
         font-size: 2.5rem;
     }
@@ -99,22 +115,11 @@ body {
     .home-content p {
         font-size: 1.2rem;
     }
-}
-.home-sci a
-{
- display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    backgeound: transparent;
-    border: 2px solid #0ef;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #0ef;
-    text-decoration: none;
-    margin: 30px 15px 30px 0;
-    
-}
 
-
+    /* Social Icons adjustments */
+    .home-sci a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
